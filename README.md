@@ -10,8 +10,7 @@ A full-stack task manager built using **React (Vite)** for the frontend and **Fl
 
 ## 🚀 Live Demo
 
-- Frontend: [https://your-task-manager.vercel.app](https://your-task-manager.vercel.app)
-- API: [https://your-task-api.onrender.com](https://your-task-api.onrender.com)
+- Frontend: [https://task-manger-flask-app-077.vercel.app/)
 
 ## 📦 Features
 
