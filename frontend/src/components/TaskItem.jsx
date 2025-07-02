@@ -1,12 +1,12 @@
 function TaskItem({ task, onToggle, onDelete }) {
   return (
-    <li className="flex items-center justify-between bg-orange-50 border border-orange-200 shadow-sm p-4 rounded-lg">
+    <li className="flex items-center justify-between bg-yellow-50 border border-yellow-200 shadow-sm p-4 rounded-lg">
       <div className="flex items-center gap-3">
         <input
           type="checkbox"
           checked={task.done}
           onChange={() => onToggle(task.id, task.done)}
-          className="w-5 h-5 accent-orange-500"
+          className="w-5 h-5 accent-yellow-500"
         />
         <span
           className={`text-base ${
@@ -20,7 +20,7 @@ function TaskItem({ task, onToggle, onDelete }) {
       </div>
       <button
         onClick={() => onDelete(task.id)}
-        className="text-sm text-orange-600 hover:text-orange-800"
+        className="text-sm text-yellow-600 hover:text-yellow-800"
       >
         Delete
       </button>

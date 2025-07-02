@@ -31,9 +31,9 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-orange-50 px-4 py-10">
-      <div className="max-w-xl mx-auto bg-white border border-orange-300 rounded-xl p-6">
-        <h2 className="text-2xl font-bold text-center text-orange-600 mb-6">
+    <div className="min-h-screen bg-yellow-50 px-4 py-10">
+      <div className="max-w-xl mx-auto bg-white border border-yellow-300 rounded-xl p-6 shadow-md">
+        <h2 className="text-2xl font-bold text-center text-yellow-600 mb-6">
           📝 Task Manager
         </h2>
         <AddTaskForm onAdd={handleAdd} />

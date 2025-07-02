@@ -17,11 +17,11 @@ function AddTaskForm({ onAdd }) {
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         placeholder="Enter new task..."
-        className="flex-grow px-4 py-2 border border-orange-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400"
+        className="flex-grow px-4 py-2 border border-yellow-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
       />
       <button
         type="submit"
-        className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition"
+        className="bg-yellow-500 text-white px-4 py-2 rounded-lg hover:bg-yellow-600 transition"
       >
         Add
       </button>
